@@ -174,7 +174,7 @@ main {
   background-image: url(https://www.designesia.com/archi/images/background/screenshots.jpg);
   padding-top: 4em;
   padding-bottom: 5em;
-  min-height: 100vh;
+  height: 100vh;
   color: white;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -329,12 +329,15 @@ main h6 {
 }
 
 .web-powered {
+  width: 100%;
   overflow: auto;
   text-align: center;
   padding: 2em 0;
 }
 
 .web-powered p:first-of-type {
+  margin: auto;
+  width: 83%;
   -webkit-transition-timing-function: ease-in-out;
           transition-timing-function: ease-in-out;
   -webkit-transition-delay: 0.1s;
@@ -350,6 +353,8 @@ main h6 {
 }
 
 .web-powered p:last-of-type {
+  margin: auto;
+  width: 83%;
   -webkit-transition-timing-function: ease-in-out;
           transition-timing-function: ease-in-out;
   -webkit-transition-delay: 0.1s;
@@ -362,6 +367,7 @@ main h6 {
 }
 
 .feedback {
+  width: 100%;
   overflow: auto;
 }
 
@@ -374,6 +380,8 @@ main h6 {
 }
 
 .feedback .owl-carousel2 {
+  width: 80%;
+  margin: auto;
   -webkit-transition-delay: 500;
           transition-delay: 500;
 }
@@ -416,6 +424,9 @@ main h6 {
   }
   #navbar .navbar-list li:last-child {
     display: inline-block !important;
+  }
+  main {
+    height: 80vh !important;
   }
   main .carusel h1 {
     font-size: 40px;

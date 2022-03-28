@@ -15,6 +15,7 @@ window.addEventListener("scroll", () => {
 
 })
 $('.owl-one').owlCarousel({
+    mouseDrag: false,
     margin: 30,
     animateOut: 'fadeOut',
     animateIn: 'fadeIn',
